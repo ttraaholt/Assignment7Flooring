@@ -21,7 +21,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Enter Width:"
         android:ems="10"
         android:layout_below="@+id/textViewWidth"
         android:layout_alignParentStart="true"
@@ -41,7 +40,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Enter Length:"
         android:ems="10"
         android:layout_below="@+id/textViewLength"
         android:layout_alignParentStart="true"
@@ -53,5 +51,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextLength"
         android:layout_alignParentStart="true"
-        android:id="@+id/buttonCalculate" />
+        android:id="@+id/buttonCalculate"
+        android:onClick="onClickCalculate" />
 </RelativeLayout>
