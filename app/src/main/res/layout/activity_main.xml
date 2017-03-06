@@ -13,19 +13,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Room Width"
+        android:text="@string/room_width"
         android:id="@+id/textViewWidth"
         android:textSize="18sp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType=""
         android:ems="10"
         android:layout_below="@+id/textViewWidth"
         android:layout_alignParentStart="true"
         android:id="@+id/editTextWidth"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        tools:ignore="LabelFor,TextFields" />
 
     <TextView
         android:text="Room Length"
@@ -34,7 +35,8 @@
         android:layout_below="@+id/editTextWidth"
         android:layout_alignParentStart="true"
         android:id="@+id/textViewLength"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -43,10 +45,11 @@
         android:ems="10"
         android:layout_below="@+id/textViewLength"
         android:layout_alignParentStart="true"
-        android:id="@+id/editTextLength" />
+        android:id="@+id/editTextLength"
+        tools:ignore="LabelFor,TextFields" />
 
     <Button
-        android:text="Show Result"
+        android:text="@string/show_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextLength"
